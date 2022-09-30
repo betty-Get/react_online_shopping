@@ -1,0 +1,50 @@
+
+.listingDetail{
+    flex: 9
+}
+.listing-detail{
+    padding: 30px ;
+}
+.detail_img{
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+}
+.listing-action{
+    float: right;
+}
+.listing_title{
+    text-align: center;
+    padding: 15px;
+   
+    font-weight: 500px;
+}
+.listing-action-icon{
+    font-size: 23px;
+    padding: 5px;
+    cursor: pointer;
+}
+.listing-action-icon:first-child{
+    color:pink;
+}
+.listing-action-icon:last-child{
+    color: rgb(233, 106, 106);
+}
+.listing-person-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color: rgb(141, 139, 137);
+    margin-bottom: 10px;
+}
+.listing-description{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(71, 63, 56);
+    font-size: 15px;
+}
+.listing-description::first-letter{
+    font-family: 'Ms Madi', cursive;
+    margin-left: 15px;
+    font-size: 35px;
+    font-weight: 650;
+}

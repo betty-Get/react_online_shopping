@@ -1,0 +1,49 @@
+.topbar{
+    width: 100%;
+    height: 70px;
+    background-color: #ffe6ff;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;/*aligns item/content inside this parent vertically center*/
+    font-family: 'Ubuntu', sans-serif;
+    z-index: 5;
+}
+.left,
+.right{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    flex:6;
+}
+.topbar-profie{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.topbar-icon{
+    color: #660066;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.topbar-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+a, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+.list-items{
+    padding-right: 22px ;
+    cursor: pointer;
+}
+.topbar-search{
+    padding-left: 40px;
+}

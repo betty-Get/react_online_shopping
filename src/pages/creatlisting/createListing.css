@@ -1,0 +1,42 @@
+#listingImg{
+  cursor: pointer;  
+}
+.create-listing{
+    margin: 50px 0px 0px 500px;
+}
+.create-listing-form-group{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.upload-icon{
+    font-size: large;
+    margin: 15px 0px 8px 0px;
+    color: #660066;
+}
+.create-listing-text{
+    line-height: 18px;
+    width: 500px;
+    height: 30px;
+    font-size: 16px;
+    padding: 2px;
+    border-color: #f9c4f9;
+}
+.create-listing-desc{
+    margin-top: 20px;
+    height: 100px;
+    width: 500px;
+    border-color: #f9c4f9;
+}
+.create-listing-button{
+    margin: 20px 0px 20px 0px;
+    padding: auto;
+    width: 500px;
+    height: 40px;
+    cursor: pointer;
+    /* background-color: var(--primary-color); */
+    border: none;
+    background-color: #f9c4f9;
+    font-weight: bold;
+    font-size: 18px;
+}
